@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "milky";
+  src: url(fontes/milky/MilkyNice-Clean.otf);
+}
+@font-face {
+  font-family: "chewy";
+  src: url(fontes/Chewy/Chewy-Regular.ttf);
+}
+div {
+  background: radial-gradient(circle, rgb(200, 235, 250) 9%, rgb(186, 231, 255) 19%, rgb(212, 216, 255) 60%);
+  color: rgb(77, 94, 99);
+  margin: 1%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(70, 70, 70, 0.329);
+}
+h1 {
+  font-family: "milky";
+  text-align: center;
+  color: rgb(246, 251, 255);
+}
+h2 {
+  font-family: "milky";
+  text-decoration: underline;
+}
+p {
+  font-family: "Chewy";
+  font-size: 13px;
+}
+.beneficios {
+  text-align: left;
+  padding: 10%;
+}
+footer {
+  background: radial-gradient(circle, rgb(200, 235, 250) 9%, rgb(186, 231, 255) 19%, rgb(212, 216, 255) 60%);
+  bottom: 0;
+  position: fixed;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px 90px 10px 50px;
+  box-shadow: 2px 2px 2px rgb(129, 129, 129);
+}
+.rodape {
+  text-align: left;
+}
+body {
+  margin: 10% 25%;
+  background: rgb(40,189,255);
+  background: radial-gradient(circle, rgba(40,189,255,1) 9%, rgba(42,182,255,1) 19%, rgba(70,89,252,1) 60%);
+}
